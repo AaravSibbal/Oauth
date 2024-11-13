@@ -1,7 +1,7 @@
 package main
 
-import "fmt"
+import server "github.com/AaravSibbal/Oauth/web"
 
 func main() {
-	fmt.Println("We are doing oauth today")
+	server.Run()
 }
